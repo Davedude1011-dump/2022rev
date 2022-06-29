@@ -1,0 +1,13 @@
+<table cellspacing="35">
+            <tr>
+                <td>Home</td>
+                <td>Algebra</td>
+                <td>Angles / Parallel's</td>
+                <td>Area</td>
+                <td>Data</td>
+                <td>Powers</td>
+                <td>Propobility</td>
+                <td>Pythagoras</td>
+                <td>Ratio / Proportion</td>
+            </tr>
+        </table>
