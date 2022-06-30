@@ -10,7 +10,7 @@
     <body>
         <table cellspacing="0" class="topBar">
             <tr>
-                <td class="home" onclick="home()">Home</td>
+                <th class="home" onclick="home()">Home</th>
                 <td class="button">Revision 2022</td>
             </tr>
         </table>
@@ -25,10 +25,10 @@
                 <td class="sideButton" onclick="area()">Area</td>
             </tr>
             <tr>
-                <td class="sideButton" onclick="calculations()">Calculations</td>
+                <td class="sideButton" onclick="data()">Data</td>
             </tr>
             <tr>
-                <td class="sideButton" onclick="data()">Data</td>
+                <td class="sideButton" onclick="pie()">Pi</td>
             </tr>
             <tr>
                 <td class="sideButton" onclick="powers()">Powers</td>
@@ -111,9 +111,240 @@ To find its area you times its height and width together, so for this square<br>
 it would be 2cm X 2cm = 4cm^2.<br>
 In maths 2d area is alwase measured in ^2, so if your measuring in cm's the<br>
 measurement would be cm^2.<br><br>
-Practise:<br>
+<img src="https://www.mathsisfun.com/measure/images/square-m-vs-m-square.svg"><br><br>
+<b>Practise:</b><br>
 Find the Area of a rectangle of the Dimentions 5cm X 3cm<br>
 <button onclick="alert('15cm^2')">answere</button>
+            </p>
+        </div>
+        <div id="data" class="screenOuter">
+            <div class="title">
+                Data
+            </div>
+            <p class="text">
+In mathematics data is information, and we use data charts to store that information,<br>
+say a school played 50 games of basketball we could use a simple win's and loss's<br>
+chart to dislay all that data (information) in a compact easy to read way.<br><br>
+Example<br><br>
+Out of the 50 basketball games the school played they won 27 of those games.<br>
+In this example the data would be the number of win's and loss's (27 win's,<br>
+23 loss's) and from this data a data chart could be made:<br><br>
+<img src="images\image_2022-06-30_090933417-removebg-preview (2).png"><br><br>
+That is a table chart but there are also other types of charts another common<br>
+one being the Stem and Leaf diagram, the table chart was good for the last data set<br>
+because it only had 2 varients Win and Lose but you can get data sets that are just<br>
+pure numbers like this example:<br><br>
+George wants to make a chart containing the ages of all 15 people in his town<br>
+DATA = 10, 10, 13, 17, 21, 24, 25, 31, 35, 39, 47, 49, 51, 58, 64<br>
+The problem is he only knows how to make table diagrams, and it would be very inpractical<br>
+to put this data in a table diagram as it would have 14 rows.<br><br>
+In this case we can use a Stem and Leaf diagram wich for that set of data would<br>
+look like this:<br><br>
+<img src="images\image_2022-06-30_102718938-removebg-preview.png"><br><br>
+The disconected part of the diagram at the bottom is called the key it displays how it<br>
+should be read, in its case 1 <b>|</b> 5 = 15, so the digram holds all the data neatly<br>
+and in numerical order.<br><br>
+Sometimes you will have a massive amount of non-repeating data wich would be heavily<br>
+impractical for both table and Stem and Leaf charts, so if thats the case you can have<br>
+a aproximation table wich is like the table chart but instead of giving you how many<br>
+of a specific number there is in the data it gives you the amount of numbers between two<br>
+points.<br><br>
+Here is an example:<br>
+Jhon has a big Data set of numbers between 1 and 100:<br>
+DATA = 1, 5, 7, 9, 12, 15, 19, 21, 28, 32, 33, 35, 37, 39, 42, 44, 44, 48, 49, 51, 56,<br>
+58, 66, 67, 74, 76, 77, 77, 79, 81, 86, 87, 95, 98, 100<br><br>
+This data would take up alot of space on both Table and Stem and Leaf diagrams so Jhon uses<br>
+an aproximation diagram wich for this data would look like this:<br><br>
+<img src="images\image_2022-06-30_105704540-removebg-preview.png"><br>
+So you can see from this type diagram in that Data set there are 3 numbers between 10 and 20.<br>
+And 5 numbers between 30 and 40.<br><br>
+<b>Remember when making a Stem and Leaf alwase add a Key.</b><br>
+Goodluck.
+            </p>
+        </div>
+        <div id="powers" class="screenOuter">
+            <div class="title">
+                Powers
+            </div>
+            <p class="text">
+In this whole revision Powers are the most simple to do, lets show some examples:<br><br>
+2 ^ 2 = 4 ( 2 X 2 = 4 )<br>
+2 ^ 3 = 8 ( 2 X 2 X 2 = 8 )<br>
+3 ^ 2 = 9 ( 3 x 3 = 9 )<br><br>
+Basically the Power (the number in the top right of the base number) is how many times<br>
+you times the main number by itself so ^2 = (num X num) and ^3 = (num X num X num), its<br>
+quite simple.<br><br>
+Test:<br>
+5 ^ 3 = ?<br>
+<button onclick="alert('125')">Answere</button><br><br>
+Even though powers may seem simple, they get more dificult when you start going into<br>
+negatives. Like 5 ^ -2 = ?, or -5 ^ 2.<br><br>
+A little tip:<br>
+5 ^ 2 = 25<br>
+-5 ^ 2 = 25<br><br>
+A negative number squared, cubed ect... Is the same as its posative counterpart<br><br>
+The problems start when you have things like 5 ^ -2 = ?.<br>
+Say we have the problem:<br>
+4 ^ -2 = ?<br><br>
+We can use whats called the reciprical of that to get:<br>
+4 ^ -2 = 1 / 4 ^ 2<br><br>
+Then we can work out 4 ^ 2 wich is 16 so we can simplify the equation:<br>
+4 ^ -2 = 1 / 16<br><br>
+Then we work out what 1 / 16 is, 0.0625, then we can plug that into our equation:<br>
+4 ^ -2 = 0.0625<br><br>
+Test:<br>
+3 ^ -2 = ?<br>
+<button onclick="alert('0.1111˙')">Answere</button><br><br>
+Remember the <b>reciprical is the number flipped</b> so:<br>
+2 = 2 / 1<br>
+Reciprical:<br>
+1/2<br><br>
+Goodluck
+            </p>
+        </div>
+        <div id="propobility" class="screenOuter">
+            <div class="title">
+                Propobility
+            </div>
+            <p class="text">
+In mathematics Propobility is the likelyhood or chance of an event occurring.<br><br>
+Propobility = the number of ways of achieving success / the total number of possible outcomes<br><br>
+For example, the probability of flipping a coin and it being heads is ½, because there is 1 way<br>
+of getting a head and the total number of possible outcomes is 2 (a head or tail). We write P(heads)<br>
+= ½.<br><br>
+<li>The probability of something which is certain to happen is 1.</li><br>
+<li>The probability of something which is impossible to happen is 0.</li><br>
+<li>The probability of something not happening is 1 minus the probability that it will happen.</li><br><br>
+<a class="text">
+Example:<br><br>
+There is a bag full of coloured balls, red, blue, green and orange. Balls are picked out and replaced.<br>
+John did this 1000 times and obtained the following results:<br><br></a>
+<li>Number of blue balls picked out: 300</li>
+<li>Number of red balls: 200</li>
+<li>Number of green balls: 450</li>
+<li>Number of orange balls: 50</li><br><a class="text">
+a) What is the propobility of picking a green ball?<br><br>
+Well as said for every 1000 balls picked out, 450 are green. Therefore P(green) = 450/1000 = 0.45<br>
+45%<br><br>
+b) If there are 100 balls in the bag, how many of them are likely to be green?<br>
+To do this you need to know at least basic ratio click <u onclick="ratio()" class="clickText text">here</u> to look at it more.<br>
+So you know out of the 1000 balls picked 450 of them where green so if there are only 100 picked (1000 / 10<br>
+= 100, 450 / 10 = 45), you will get 45 green balls.
+            </a></p>
+        </div>
+        <div id="pythagoras" class="screenOuter">
+            <div class="title">
+                Pythagoras
+            </div>
+            <p class="text">
+Pythagoras is a formula for working out the third side of a triangle using the other 2 sides.<br>
+First you need to know the names of the sides of the triangle:<br><br>
+<b>Hypotenuse</b> · The longest side of the triangle.<br><br>
+<b>Opposite and Adjacent</b> · The other 2 sides of the triangle.<br><br>
+The Pythagoras formula is <b>a^2 + b^2 = c^2</b>, click<u class="clickText text" onclick="powers()">here</u> to learn more on powers.<br><br>
+In the formula the a, b and c are placeholders for the length of each side, click<u class="clickText text" onclick="algebra()">here</u> to learn more on algebra.<br><br>
+So if you had a triangle with the sides 3cm, 4cm and 5cm:<br>
+<img src="images\image_2022-06-30_115623265-removebg-preview (1).png"><br><br>
+For this we can fill in a with 3, b with 4 and c is missing, (the order doesnt matter) and then we can<br>
+use the formula to work out the missing length (in this case the Hypotenuse).<br><br>
+a^2 + b^2 = c^2<br>
+3^2 + 4^2 = c^2<br>
+9 + 16 = c^2<br>
+25 = c^2<br><br>
+So now we know that the length of the Hypotenuse ^ 2 = 25, so we can square root it to find the<br>
+actual length of the Hypotenuse:<br><br>
+√c^2 = c<br>
+√25 = 5<br>
+5 = c<br><br>
+Now we add back our measurements, 5 = 5cm, then we worked out the missing length of this<br>
+triangle<br><br>
+Now this doesnt only work trying to find the Hypotenuse you can use it to find one<br>
+of the smaller sides like the Adjacent or Opposite.<br>
+<img src="images\image_2022-06-30_115623265-removebg-preview (2).png"><br><br>
+So in this case we are missing b.<br>
+Lengths:<br><br>
+a = 3<br>
+b = ?<br>
+c = 5<br><br>
+So if we plug these into the formula:<br><br>
+3^2 + ?^2 = 5^2<br>
+9 + ?^2 = 25 (we can take 9 away from both sides)<br>
+b^2 = 16<br>
+√16 = 4<br>
+b = 4<br><br>
+Now try this one yourself:<br><br>
+<img src="images\image_2022-06-30_121036103-removebg-preview.png"><br>
+Working out:<br>
+<textarea class="text"></textarea><br>
+<button onclick="alert('5cm')">Answere</button>
+            </p>
+        </div>
+        <div id="ratio" class="screenOuter">
+            <div class="title">
+                Ratio
+            </div>
+            <p class="text">
+A ratio is the comparison of 2 numbers, for example if the ratio of 2 lengths<br>
+is 1:2, then that means the second length is twice as big as the first.<br><br>
+Example:<br><br>
+Simon made a scale model of a car on a scale of 1:10. The height of the model car is 10cm.<br><br>
+a) work out the height of the real car.<br>
+To do this we need to know the ratio of toy:car wich is 1:10 so the car is 10 X the height<br>
+of the toy, we know the toys height is 10cm so 10 X 10 = 100cm, the height of the car is 100cm<br><br>
+b) The length of the real car is 500cm. Work out the length of the model car.<br>
+We know the ratio of toy:car is 1:10 so if the car's length = 500cm, then that makes the toy's<br>
+length 500/10 = 50cm<br><br>
+so the dimentions of the toy = 50cm by 10cm : car = 500cm by 100cm<br>
+            </p>
+        </div>
+        <div id="sequences" class="screenOuter">
+            <div class="title">
+                Sequences / N'th Term
+            </div>
+            <p class="text">
+In mathematics a sequence is basically a pattern of numbers.<br><br>
+Example:<br><br>
+2, 4, 6, 8, 10<br>
+This is a sequence.<br><br>
+The question may ask to continue the sequence, if so you need to find the pattern<br>
+of the sequence (in the example it is +2, because it goes up 2 every time), to do so <br>
+you need to find the difference of 2 adjacent numbers like in the example we can use<br>
+2 and 4, the difference being 2, then we can do the same with 4 and 6, difference = 2<br>
+when you know the difference apply it to the last number of the sequence to get the next<br>
+number like in the example, we know it goes up by 2 so it would continue, 12, 14, 16, 18...<br><br>
+Closely linking with sequences is N'th Term wich is slightly more confusing.<br>
+N = 1, 2, 3, 4, 5...<br>
+2N = 2, 4, 6, 8, 10...<br>
+3N = 3, 6, 9, 12, 15...<br><br>
+Basically N = the posative number line and saying something like 2N just means for every<br>
+number on the posative number line times it by 2 as shown on those examples<br><br>
+The N'th Term doesnt only have to be timesed it can be added to:<br>
+N+1 = 2, 3, 4, 5, 6...<br>
+N+2 = 3, 4, 5, 6, 7...<br>
+2N-1 = 1, 3, 5, 7, 9...<br><br>
+A question may give you a sequence and ask you for the N'th term of it.<br>
+Example of this:<br><br>
+Find the N'th Term of this sequence.<br>
+5, 10, 15, 20, 25...<br><br>
+If we compare it to N we can see whats happening.<br>
+1, 2, 3, 4, 5<br>
+5, 10, 15, 20, 25<br><br>
+So as you can see they are being timesed by 5.<br>
+So the N'th Term would be 5N.<br><br>
+Test question:<br><br>
+What is the N'th Term of this Sequence:<br>
+4, 9, 14, 19, 24...<br><br>
+Working out:<br>
+<textarea class="text"></textarea><br>
+<button onclick="alert('5N-1')">Answere</button>
+            </p>
+        </div>
+        <div id="pie" class="screenOuter">
+            <div class="title">
+                🥧 Pi
+            </div>
+            <p class="text">
+In mathematics Pi is used to find the circumference of a circle using its radius.<br>
             </p>
         </div>
     </body>
